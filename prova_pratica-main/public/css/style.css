@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    border-bottom: 3px solid black;
+    height: 5rem;
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+body{
+    height: 70vh;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.form-text{
+    color: black;
+    font-weight: bold;
+}
+.input{
+    display: flex;
+    height: 1.7rem;
+    border-radius: 5px;
+    width: 27rem;
+    border: 1px solid black;
+    align-items: center;
+}
+.input:placeholder-shown{
+    color: grey;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 41vh;
+}
+
+.box-2{
+    flex-direction: row;
+    display: flex;
+    gap: 1.4rem;
+}
+
+.text-area{
+    width: 27rem;
+    height: 7rem;
+    border-radius: 5px;
+}
+.text-area:placeholder-shown{
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.btn-cadastrar{
+    width: 27.5rem;
+    height: 2rem;
+    border-radius: 7px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.btn-cadastrar:hover{
+    cursor: pointer;
+}
+
+.nome-home{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.input-d{
+    width: 13rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid black;
+}
